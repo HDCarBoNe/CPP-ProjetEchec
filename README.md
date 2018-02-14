@@ -22,5 +22,7 @@ Le projet consiste en la réalisation d'un jeu d'échec en C++. Le jeu devra ce 
   * Rois
   * Reines
 * Coder la partie ou le joueurs "mange" le pions adverse
+* Coder la promotion du pion
+  * proposer un choix de pions pour remplacer le pion
 * coder la lecture de l'échec et mat
 * Teste du jeux 
