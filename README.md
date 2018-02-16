@@ -4,7 +4,7 @@ Le projet consiste en la réalisation d'un jeu d'échec en C++. Le jeu devra ce 
 
 ### Ligne de conduite du projet
 ##### Mode console
-* Créer un tableau 2d 8x8 qui représentera l'échiquier.
+* Créer un échiquier 2d 8x8 de 64 cases ou les pions seront placé.
 * Placer les pions sur l'échiquier, chaque piont a une coordonnée distinct.
 * Coder le déplacement du pions sur l'échiquier, déplacement 1 en avant (points de vue du joueurs).
 * Coder la possibilité de "manger" les pions adverse en diagonale.
