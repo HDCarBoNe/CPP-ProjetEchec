@@ -1,9 +1,15 @@
 # CPP-ProjetEchec
 
-Le projet consiste en la réalisation d'un jeu d'échec en C++. Le jeu devra ce jouer à 2 joueurs.
+Le projet consiste en la réalisation d'un jeu d'échec en C++. Le jeu devra ce jouer à 2 ou 4 joueurs.
 
-#### Ligne de conduite du projet
-
+### Ligne de conduite du projet
+##### Mode console
+* Créer un tableau 2d 8x8 qui représentera l'échiquier.
+* Placer les pions sur l'échéquier, chaque piont a une coordonnée distinct.
+* Coder le déplacement du pions sur l'échiquier, déplacement 1 en avant (points de vue du joueurs).
+* Coder la possibilité de "manger" les pions adverse en diagonale.
+* Faire des test en utilisant les règles du jeu de dames
+##### Mode gaphique
 * Afficher une fenêtre
 * Mettre une image d'un échiquier en fond de la fenêtre
 * Faire un menu qui contient "Nouvelle partie" "Mode de jeu" "Quitter"
@@ -15,7 +21,6 @@ Le projet consiste en la réalisation d'un jeu d'échec en C++. Le jeu devra ce 
   * 2 x rois
   * 2 x reines
 * Coder les déplacement des différents pions sur l'échéquier
-  * Pions
   * Tours
   * Fous
   * Cavaliers
