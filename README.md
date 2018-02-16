@@ -6,7 +6,7 @@ Le projet consiste en la réalisation d'un jeu d'échec en C++. Le jeu devra ce 
 
 * Afficher une fenêtre
 * Mettre une image d'un échiquier en fond de la fenêtre
-* Faire un menu qui contient "Nouvelle partie" "Quitter"
+* Faire un menu qui contient "Nouvelle partie" "Mode de jeu" "Quitter"
 * Placer les images des différents pions à leurs place sur l'échiquier
   * 16 x Pions
   * 4 x Tours
@@ -25,4 +25,13 @@ Le projet consiste en la réalisation d'un jeu d'échec en C++. Le jeu devra ce 
 * Coder la promotion du pion
   * proposer un choix de pions pour remplacer le pion
 * coder la lecture de l'échec et mat
-* Teste du jeux 
+* Coder un mode de jeu avec un pion au hazard non connu des joueurs qui lorsqu'il ce fait manger "explose" et supprime les pionts adverse dans un rayons de 3 blocks
+* Coder un autre mode de jeux pour 4 joueurs en reduissant le nombre de cavalier et de fous pour les joueurs.
+* Include une options de timers qui lorsqu'il tombe à zéro (sans echec&mat) compte les points:
+  * Pion 1 points
+  * Tour 5 points
+  * Fou 3 points
+  * Cavalier 3 points
+  * Dame 9 points
+  * Le rois est sans points.
+* Teste du jeux et différents mode de jeu 
